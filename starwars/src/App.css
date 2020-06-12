@@ -2,8 +2,17 @@
   text-align: center;
 }
 .Header {
-  color: #443e3e;
-  text-shadow: 1px 1px 5px #fff;
+  color: rgba(115, 245, 6, 1);
+  margin: 40px;
+  font-family: "Eater", cursive;
+}
+
+.logo {
+  width: 100%;
+  height: 300px;
+  background-image: url(./images/logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 /* write your parent styles in here for your App.js */
 .char-container {
@@ -14,12 +23,27 @@
 }
 
 .card {
-  background-color: rgba(0, 0, 0, 0.9);
-  color: white;
+  background-color: #b0f152;
+  box-shadow:0px 0px 8px #b0f152; ;
+  color: black;
   margin: 5px;
+  opacity: 0.6;
+}
+
+.card:hover {
+  opacity: 1;
 }
 
 .card-title {
   height: 40px;
   padding-top: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.card-img {
+  width: 100%;
+  padding: 10px;
 }

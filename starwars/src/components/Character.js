@@ -1,6 +1,6 @@
 // Write your Character component here
-import React, { useState } from "react";
-import { Card, CardImg, CardText, CardTitle } from "reactstrap";
+import React from "react";
+import { Card, CardImg, CardTitle } from "reactstrap";
 
 const Character = (props) => {
   const { charData } = props;

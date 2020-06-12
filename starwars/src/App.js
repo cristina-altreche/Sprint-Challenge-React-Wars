@@ -35,8 +35,6 @@ const App = () => {
       <div className="logo"></div>
       <h3>Find out who is dead or alive!</h3>
       <Character charData={rmData}></Character>
-
-      <button>Next Char</button>
     </div>
   );
 };

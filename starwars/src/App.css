@@ -64,13 +64,14 @@ h3 {
 }
 
 .card .back {
-  height: 100%;
-  width: 100%;
-  line-height: 100px;
+  height: 300px;
+  width: 300px;
+  line-height: 300px;
   text-align: center;
   transform: rotateY(180deg);
   position: absolute;
   font-size: 40px;
+  border: none;
 }
 
 /* .card-text:hover {

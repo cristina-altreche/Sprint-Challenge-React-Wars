@@ -1,13 +1,6 @@
 // Write your Character component here
-import React from "react";
-import {
-  Card,
-  CardImg,
-  CardText,
-  CardTitle,
-  CardSubtitle,
-  Button,
-} from "reactstrap";
+import React, { useState } from "react";
+import { Card, CardImg, CardText, CardTitle } from "reactstrap";
 
 const Character = (props) => {
   const { charData } = props;
@@ -17,8 +10,10 @@ const Character = (props) => {
       {charData.map((characters) => {
         return (
           <Card>
-            <CardTitle>{characters.name}</CardTitle>
-            <CardImg src={characters.image}></CardImg>
+            <CardTitle className="front">{characters.name}</CardTitle>
+            <CardImg className="front" src={characters.image}></CardImg>
+
+            <Card className="front back">{characters.status}</Card>
           </Card>
         );
       })}

@@ -21,7 +21,7 @@ const App = () => {
         )
         .then((res) => {
           setRMData(res.data.results);
-          console.log(res.data.results);
+          console.log(res);
         })
         .catch((err) => {
           console.log(err, "this did not work");
